@@ -15,13 +15,6 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-  
-  analogWrite(R_PWM, 255);
-  analogWrite(L_PWM, 0);
-
-
-  /*
   int i;
   for(i = 0; i <= 255; i= i+10){ //clockwise rotation
    analogWrite(R_PWM, i);
@@ -34,6 +27,5 @@ void loop() {
    analogWrite(L_PWM, i);
    delay(100);
   }
- // delay(500);
- */
+   // delay(500);
 }
